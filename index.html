@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techno IT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="navbar">
+                <div class="container">
+                    <a id="logo" href="index.htm"><img src="img/logo.png" alt="Techno It"></a>
+                    <ul id="menu">
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Testimonial</li>
+                        <li>Team</li>
+                        <li>Menu <i class="fa-solid fa-chevron-down"></i></li>
+                        <li>News</li>
+                        <li class="btn">Get Quotes</li>
+                        <button id="dark-mod">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </ul>
+                    <i id="hamburger-menu" onclick="ac(1)" class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <div id="particles-js"></div>
+
+            <div id="header-txt">
+                <h3 data-aos="fade-up">Delivering Superior Services<span> IT Solutions.</span></h3>
+                <p data-aos-delay="400" data-aos="fade-up">You can easily change any design to your own. It is also
+                    highly customizable SEO friendly template.</p>
+                <div data-aos-delay="600" id="social" data-aos="fade-up">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div id="header-txt-btn" data-aos="fade-up" data-aos-delay="800">
+                    <button class="btn">Get Quotes</button>
+                    <button class="btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="navbar-hamburger">
+        <ul>
+            <i  style="text-align: end;" class="fa-solid fa-x" onclick="ac(2)"></i>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Testimonial</li>
+            <li>Team</li>
+            <li>Menu</li>
+            <li>News</li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">
+            <div id="services"></div>
+
+            <!-- FEATURES -->
+            <div class="card-text">
+                <h2>Why You Choose Us</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="features">
+
+                <div id="features-first-child"></div>
+                <div data-aos="fade-up" data-aos-delay="100" id="features-img"><img src="img/features.jpg"
+                        alt="Features" /></div>
+
+                <div id="features-last-child"></div>
+            </div>
+            <div class="card-text">
+                <h2>Our Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <ul id="buttons">
+                <li class="btn">All</li>
+                <li class="btn">App Design</li>
+                <li class="btn">App Development</li>
+                <li class="btn">Branding</li>
+                <li class="btn">It Solutions</li>
+            </ul>
+            <div id="portfolio-img"></div>
+            <div class="card-text">
+                <h2>Pricing Plans</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="plans"></div>
+            <div class="card-text">
+                <h2>Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+        <div id="number">
+            <div id="number-elements">
+                <div class="number-element">
+                    <img src="img/happy-clients.svg" alt="">
+                    <span id="happy">232</span>
+                    <p><span>Happy Clience</span>consequuntur quae diredo</p>
+                </div>
+                <div class="number-element">
+                    <img src="img/complete-projects.svg" alt="">
+                    <span id="completed">232</span>
+                    <p><span>Completed Projects</span>adipisci atque quia aut</p>
+                </div>
+                <div class="number-element">
+                    <img src="img/hours-support.svg" alt="">
+                    <span id="hours">232</span>
+                    <p><span>Hours Of Support</span>aut commodi quaerat</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="swiper-extra">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/client-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/client-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team-extra">
+            <div class="container">
+                <div id="team">
+                    <div class="team-element">
+                        <img src="img/team-1.jpg" alt="">
+                        <h4>Jhone Bi</h4>
+                        <span>Application Manager</span>
+                        <div id="social-icons">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-element">
+                        <img src="img/team-2.jpg" alt="">
+                        <h4>Sani Awesome</h4>
+                        <span>Social Media</span>
+                        <div id="social-icons">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-element">
+                        <img src="img/team-3.jpg" alt="">
+                        <h4>Andrio Willi</h4>
+                        <span>Content Writter</span>
+                        <div id="social-icons">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-element">
+                        <img src="img/team-4.jpg" alt="">
+                        <h4>Affa Jonson</h4>
+                        <span>Business Manager</span>
+                        <div id="social-icons">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ -->
+        <div class="container">
+            <div id="faq">
+                    <div class="card-text">
+                        <h2>FAQ's</h2>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                <div class="faq-element" onclick="change(0)">
+                    <div class="faq-element-txt">
+                        <div class="faq-element-first">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <p>What is web domain and hosting?</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-down routate"></i>
+                    </div>
+                    
+                    <div class="faq-element-accardion active">
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+                <div class="faq-element" onclick="change(1)">
+                    <div class="faq-element-txt" >
+                        <div class="faq-element-first">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        <p> Which server is best for websites linux or windows?</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-element-accardion">
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+                <div class="faq-element" onclick="change(2)">
+                    <div class="faq-element-txt">
+                        <div class="faq-element-first">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        <p>Google cloud or Amazon server which one is best and fast?</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-element-accardion">
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+                <div class="faq-element" onclick="change(3)">
+                    <div class="faq-element-txt">
+                        <div class="faq-element-first">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                        <p>Google cloud or Amazon server which one is best and fast?</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-element-accardion">
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PROJECT -->
+        <div id="project">
+            <div class="project-element">
+                <h3>Let's Discuss your Projects</h3>
+                <p>We pride ourselves with our ability to perform and deliver results. Use the form below to discuss
+                    your project needs with our team, we will get back asap</p>
+                <button class="btn">Contact Us</button>
+            </div>
+        </div>
+        <!-- BLOG -->
+        <div id="blog-extra">
+            <div class="card-text">
+                <h2>Blogs</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="blog">
+                <div class="blog-element">
+                    <div class="blog-element-img"><img src="img/blog-1.jpg" alt=""></div>
+                    <div class="blog-element-txt">
+                        <p class="p-first">Domain & Hosting</p>
+                        <h2>How to host website on any hosting provider?</h2>
+                        <p>William Bla</p>
+                        <p>Feb 1, 2022</p>
+                    </div>
+                </div>
+                <div class="blog-element">
+                    <div class="blog-element-img"><img src="img/blog-2.jpg" alt=""></div>
+                    <div class="blog-element-txt">
+                        <p class="p-first">Domain & Hosting</p>
+                        <h2>How to host website on any hosting provider?</h2>
+                        <p>William Bla</p>
+                        <p>Feb 1, 2022</p>
+                    </div>
+                </div>
+                <div class="blog-element">
+                    <div class="blog-element-img"><img src="img/blog-3.jpg" alt=""></div>
+                    <div class="blog-element-txt">
+                        <p class="p-first">Domain & Hosting</p>
+                        <h2>How to host website on any hosting provider?</h2>
+                        <p>William Bla</p>
+                        <p>Feb 1, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-text">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div id="contact">
+                <div class="contact-txt" data-aos="fade-right">
+                    <div class="contact-txt-element">
+                        <h6>Address:</h6>
+                        <p>11 West Town</p>
+                        <p>PBo 12345, United States</p>
+                    </div>
+                    <div class="contact-txt-element">
+                        <h6>Phone:</h6>
+                        <p>+1 1234 56 789</p>
+                        <p>+1 1234 56 780</p>
+                    </div>
+                    <div class="contact-txt-element">
+                        <h6>Email:</h6>
+                        <p>info@example.com</p>
+                        <p>email@example.com</p>
+                    </div>
+                </div>
+                <div class="contact-element" data-aos="fade-left">
+                    <div id="contact-element-first-child">
+                        <input type="text" placeholder="Name*" />
+                        <input type="mail" placeholder="Email*" />
+                    </div>
+                    <input type="text" placeholder="Subject*" />
+                    <textarea name="" id="" rows="7" cols="800" placeholder="Write Your Message*"></textarea>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="container">
+            <div id="footer-main">
+                <img src="img/logo.png" alt="Logo" />
+                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
+                <span class="blue">Foolow us</span>
+                <div id="footer-icon">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <ul>
+                <li class="blue">Services</li>
+                <li>Web Design</li>
+                <li>App Development</li>
+                <li>Cloud Services</li>
+                <li>Domain And Hosting</li>
+                <li>Seo Optimization</li>
+                <li>Social Media</li>
+            </ul>
+            <ul>
+                <li class="blue">Information</li>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Team</li>
+                <li>Blogs</li>
+                <li>Blog Details</li>
+                <li>Coming Soon</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Portfolio</li>
+                <li>FAQs</li>
+                <li>Team</li>
+            </ul>
+            <ul>
+                <li class="blue">Contact</li>
+                <li><i class="fa-solid fa-location-dot"></i> 101 West Town , PBO 12345, United States</li>
+                <li><i class="fa-solid fa-phone"></i> +1 1234 56 789</li>
+                <li><i class="fa-solid fa-envelope"></i> contact@example.com</li>
+                <li class="blue"> Newsletter</li>
+                <li>Don't miss to subscribe to our new feeds, kindly fill the form below.</li>
+                <input type="text" placeholder="Email Address">
+            </ul>
+        </div>
+        </footer>
+    <!-- SCRIPT CODES -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/aos.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/particles.js"></script>
+    <script src="script/service.js"></script>
+    <script src="script/features.js"></script>
+    <script src="script/portfolio.js"></script>
+    <script src="plans.js"></script>
+    <script src="script/number.js"></script>
+    <script src="script/corousel.js"></script>
+    <script src="script/nav.js"></script>
+</body>
+
+</html>
