@@ -17,6 +17,7 @@ const hamburger = document.querySelector('#navbar-hamburger')
 const hamburgerOpen = document.querySelector('#hamburger-menu')
 
 function ac(p){
+    hamburger.classList.toggle('width')
     p == 1 ? hamburger.classList.add('navbar') : hamburger.classList.remove('navbar')
 }
 

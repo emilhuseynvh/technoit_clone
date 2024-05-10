@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     font-family: 'Poppins';
 }
-
+body{overflow-x: hidden !important;}
 header {
     background: url(../img/hero-bg.png) center/ cover;
     background-attachment: fixed;
@@ -33,13 +33,15 @@ header {
 }
 
 nav .container {
-    padding: 20px 0;
+    width: 100vw;
+    padding: 20px 10px 0 0;
+    margin:  0 !important;
     display: flex;
     justify-content: space-between;
 }
 
 .container {
-    width: 95vw;
+    /* max-width: 95vw; */
     margin: auto !important;
 }
 
@@ -103,9 +105,7 @@ nav #dark-mod i {
 #header-txt {
     position: absolute;
     top: 40%;
-    left: 8%;
     text-align: center;
-    width: 80vw;
 }
 
 #header-txt h3 {
@@ -612,7 +612,8 @@ nav #dark-mod i {
 
 /* PROJECT */
 #project {
-    background: url(../img/hero-bg.png) center right;
+    background: url(../img/hero-bg.png) center;
+    background-position-x: -1000px;
     background-attachment: fixed;
     position: relative;
     padding: 150px 100px;
@@ -620,7 +621,7 @@ nav #dark-mod i {
     z-index: 0;
 }
 
-#project h3 {
+#project h3{
     color: #fff;
     font-size: 28px;
     margin-bottom: 20px;
@@ -693,9 +694,11 @@ textarea{
     flex-direction: column;
     gap: 40px;
 }
+
 /* FOOTER */
 footer{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.png) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-bg.png) center/ cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -764,7 +767,9 @@ footer ul li i{
     height: 100vh;
     color: #fff;
     transition: .6s;
-    transform: translateX(300%);
+}
+body {
+    overflow-x: hidden !important;
 }
 .navbar{
     transform: translateX(0) !important;
@@ -779,6 +784,13 @@ footer ul li i{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+#project{
+    padding: 150px 0 !important;
+}
+.width{
+    width: 0 !important;
+    display: none;
 }
 @media only screen and (min-width: 1280px) {
     .container {
@@ -842,6 +854,11 @@ footer ul li i{
     }
 }
 
+@media only screen and (max-width: 400px) {
+    #navbar-hamburger{
+        width: 100vw !important;
+    }
+}
 @media only screen and (min-width: 768px) {
 
     /*  H E A D E R   T X T  */
