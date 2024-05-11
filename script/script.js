@@ -1,6 +1,8 @@
 const accr = document.querySelectorAll('.faq-element-accardion') 
 const accrFirst = document.querySelector('.faq-element-first')
 const chevron = document.querySelectorAll('.fa-chevron-down')
+const main = document.querySelector('main')
+const footer = document.querySelector('footer')
 console.log(chevron);
  function change(a){
     accr[a].classList.toggle('active');
@@ -19,5 +21,6 @@ const hamburgerOpen = document.querySelector('#hamburger-menu')
 function ac(p){
     hamburger.classList.toggle('width')
     p == 1 ? hamburger.classList.add('navbar') : hamburger.classList.remove('navbar')
+    hamburger.style.position = 'fixed'
 }
 
